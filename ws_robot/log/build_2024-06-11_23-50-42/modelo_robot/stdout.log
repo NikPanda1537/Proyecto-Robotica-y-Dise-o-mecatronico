@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/modelo_robot/modelo_robot.egg-info
+writing ../../build/modelo_robot/modelo_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/modelo_robot/modelo_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/modelo_robot/modelo_robot.egg-info/entry_points.txt
+writing requirements to ../../build/modelo_robot/modelo_robot.egg-info/requires.txt
+writing top-level names to ../../build/modelo_robot/modelo_robot.egg-info/top_level.txt
+writing manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/luis/ws_robot/build/modelo_robot/build
+creating /home/luis/ws_robot/build/modelo_robot/build/lib
+creating /home/luis/ws_robot/build/modelo_robot/build/lib/modelo_robot
+copying modelo_robot/__init__.py -> /home/luis/ws_robot/build/modelo_robot/build/lib/modelo_robot
+running install
+running install_lib
+creating /home/luis/ws_robot/install/modelo_robot/lib/python3.10/site-packages/modelo_robot
+copying /home/luis/ws_robot/build/modelo_robot/build/lib/modelo_robot/__init__.py -> /home/luis/ws_robot/install/modelo_robot/lib/python3.10/site-packages/modelo_robot
+byte-compiling /home/luis/ws_robot/install/modelo_robot/lib/python3.10/site-packages/modelo_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/luis/ws_robot/install/modelo_robot/share/ament_index
+creating /home/luis/ws_robot/install/modelo_robot/share/ament_index/resource_index
+creating /home/luis/ws_robot/install/modelo_robot/share/ament_index/resource_index/packages
+copying resource/modelo_robot -> /home/luis/ws_robot/install/modelo_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot
+creating /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/urdf
+copying urdf/Archivos_URDF.urdf -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/urdf
+creating /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/launch
+copying launch/display.launch.py -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/launch
+creating /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/meshes
+copying meshes/Link_4.STL -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/meshes
+copying meshes/Link_5.STL -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/meshes
+copying meshes/base_link.STL -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/meshes
+copying meshes/Link_3.STL -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/meshes
+copying meshes/Link_6.STL -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/meshes
+copying meshes/Link_2.STL -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/meshes
+copying meshes/Link_7.STL -> /home/luis/ws_robot/install/modelo_robot/share/modelo_robot/meshes
+running install_egg_info
+Copying ../../build/modelo_robot/modelo_robot.egg-info to /home/luis/ws_robot/install/modelo_robot/lib/python3.10/site-packages/modelo_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/luis/ws_robot/build/modelo_robot/install.log'
