@@ -3,22 +3,22 @@
      Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="Solid_URDF">
+  name="Archivos_URDF">
   <link
     name="base_link">
     <inertial>
       <origin
-        xyz="8.6736E-18 -4.5379E-18 0.021134"
+        xyz="1.04083408558608E-17 -4.74419593662523E-18 0.0211342975511615"
         rpy="0 0 0" />
       <mass
-        value="0.51331" />
+        value="0.513305048081214" />
       <inertia
-        ixx="0.00058904"
-        ixy="-2.8124E-20"
-        ixz="7.919E-21"
-        iyy="0.00058904"
-        iyz="-3.3396E-20"
-        izz="0.00099809" />
+        ixx="0.000589039873810118"
+        ixy="-2.9778502051909E-20"
+        ixz="8.12582872741327E-21"
+        iyy="0.000589039873810118"
+        iyz="-3.54329283145971E-20"
+        izz="0.000998091548426159" />
     </inertial>
     <visual>
       <origin
@@ -26,12 +26,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/base_link.STL" />
+          filename="package://Archivos_URDF/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/base_link.STL" />
+          filename="package://Archivos_URDF/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -48,17 +48,17 @@
     name="Link_2">
     <inertial>
       <origin
-        xyz="-1.7347E-18 1.1281E-08 0.058542"
+        xyz="-1.73472347597681E-18 1.1280828360068E-08 0.0585415312896596"
         rpy="0 0 0" />
       <mass
-        value="0.029815" />
+        value="0.0298150173902571" />
       <inertia
-        ixx="5.2832E-06"
-        ixy="3.0433E-23"
-        ixz="1.5486E-22"
-        iyy="6.1777E-06"
-        iyz="-4.16E-12"
-        izz="4.8276E-06" />
+        ixx="5.28316251610019E-06"
+        ixy="3.04330184981795E-23"
+        ixz="1.72063828620642E-22"
+        iyy="6.17773839822544E-06"
+        iyz="-4.1599871884896E-12"
+        izz="4.82762081896035E-06" />
     </inertial>
     <visual>
       <origin
@@ -66,12 +66,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_2.STL" />
+          filename="package://Archivos_URDF/meshes/Link_2.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_2.STL" />
+          filename="package://Archivos_URDF/meshes/Link_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -106,17 +106,17 @@
     name="Link_3">
     <inertial>
       <origin
-        xyz="-5.2042E-18 0.081267 -7.2272E-18"
+        xyz="-5.20417042793042E-18 0.0812673430675752 -6.88505437219738E-18"
         rpy="0 0 0" />
       <mass
-        value="0.10048" />
+        value="0.100483555337623" />
       <inertia
-        ixx="0.00020942"
-        ixy="2.6655E-20"
-        ixz="6.393E-12"
-        iyy="1.4347E-05"
-        iyz="1.4686E-20"
-        izz="0.00020574" />
+        ixx="0.000209422011369855"
+        ixy="2.64949697662501E-20"
+        ixz="6.39301353680916E-12"
+        iyy="1.43468981376173E-05"
+        iyz="1.49806768256933E-20"
+        izz="0.000205738967942235" />
     </inertial>
     <visual>
       <origin
@@ -124,12 +124,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_3.STL" />
+          filename="package://Archivos_URDF/meshes/Link_3.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_3.STL" />
+          filename="package://Archivos_URDF/meshes/Link_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -164,17 +164,17 @@
     name="Link_4">
     <inertial>
       <origin
-        xyz="-0.065014 -0.0125 -4.8132E-07"
+        xyz="-0.0650141812421137 -0.012499999992724 -4.8132443444162E-07"
         rpy="0 0 0" />
       <mass
-        value="0.060766" />
+        value="0.0607663214998903" />
       <inertia
-        ixx="4.2232E-06"
-        ixy="2.4803E-14"
-        ixz="-1.0882E-09"
-        iyy="0.00013388"
-        iyz="8.1538E-12"
-        izz="0.00013578" />
+        ixx="4.22320871694822E-06"
+        ixy="2.48026695674233E-14"
+        ixz="-1.08820986114423E-09"
+        iyy="0.000133882737654174"
+        iyz="8.15378607161622E-12"
+        izz="0.000135777021450488" />
     </inertial>
     <visual>
       <origin
@@ -182,12 +182,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_4.STL" />
+          filename="package://Archivos_URDF/meshes/Link_4.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -196,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_4.STL" />
+          filename="package://Archivos_URDF/meshes/Link_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -222,17 +222,17 @@
     name="Link_5">
     <inertial>
       <origin
-        xyz="1.9965E-18 1.1102E-16 0.019929"
+        xyz="-2.01424434857073E-18 1.11022302462516E-16 -0.019928523878268"
         rpy="0 0 0" />
       <mass
-        value="0.046012" />
+        value="0.0460123556163477" />
       <inertia
-        ixx="9.1204E-06"
-        ixy="-4.4171E-16"
-        ixz="-8.9824E-22"
-        iyy="1.0499E-05"
-        iyz="8.8543E-22"
-        izz="1.3863E-05" />
+        ixx="9.12035370421495E-06"
+        ixy="4.41713259897679E-16"
+        ixz="-9.08745942028911E-22"
+        iyy="1.04988293472204E-05"
+        iyz="-8.91718671189687E-22"
+        izz="1.38630378204512E-05" />
     </inertial>
     <visual>
       <origin
@@ -240,12 +240,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_5.STL" />
+          filename="package://Archivos_URDF/meshes/Link_5.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -254,7 +254,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_5.STL" />
+          filename="package://Archivos_URDF/meshes/Link_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -263,13 +263,13 @@
     type="revolute">
     <origin
       xyz="-0.1483 -0.0125 0"
-      rpy="3.1416 -1.5708 0" />
+      rpy="0 1.5708 0" />
     <parent
       link="Link_4" />
     <child
       link="Link_5" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 0 -1" />
     <limit
       lower="0"
       upper="3.142"
@@ -280,17 +280,17 @@
     name="Link_6">
     <inertial>
       <origin
-        xyz="0.0039759 -0.0025 0.043169"
+        xyz="0.0039758805416412 -0.00249999999999997 0.0431691091091901"
         rpy="0 0 0" />
       <mass
-        value="0.0082022" />
+        value="0.00820216814692821" />
       <inertia
-        ixx="7.8318E-06"
-        ixy="4.0409E-23"
-        ixz="2.5719E-07"
-        iyy="7.8154E-06"
-        iyz="-1.4296E-21"
-        izz="1.2643E-07" />
+        ixx="7.8317509381251E-06"
+        ixy="3.93622840678767E-23"
+        ixz="2.57194483482804E-07"
+        iyy="7.81536660904896E-06"
+        iyz="-1.44347691795897E-21"
+        izz="1.26431924624515E-07" />
     </inertial>
     <visual>
       <origin
@@ -298,12 +298,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_6.STL" />
+          filename="package://Archivos_URDF/meshes/Link_6.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -312,7 +312,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_6.STL" />
+          filename="package://Archivos_URDF/meshes/Link_6.STL" />
       </geometry>
     </collision>
   </link>
@@ -320,8 +320,8 @@
     name="Joint_6"
     type="prismatic">
     <origin
-      xyz="0 0.0025 0.038"
-      rpy="0 0 0" />
+      xyz="0 0.0025 -0.038"
+      rpy="-3.1416 0 3.1416" />
     <parent
       link="Link_5" />
     <child
@@ -338,17 +338,17 @@
     name="Link_7">
     <inertial>
       <origin
-        xyz="-0.0039759 -0.0025 0.043169"
+        xyz="-0.00397588054164117 -0.00249999999999997 0.0431691091091901"
         rpy="0 0 0" />
       <mass
-        value="0.0082022" />
+        value="0.00820216814692821" />
       <inertia
-        ixx="7.8318E-06"
-        ixy="-3.1846E-23"
-        ixz="-2.5719E-07"
-        iyy="7.8154E-06"
-        iyz="-1.5325E-21"
-        izz="1.2643E-07" />
+        ixx="7.8317509381251E-06"
+        ixy="-3.18464546859489E-23"
+        ixz="-2.57194483482806E-07"
+        iyy="7.81536660904896E-06"
+        iyz="-1.54058224043887E-21"
+        izz="1.26431924624515E-07" />
     </inertial>
     <visual>
       <origin
@@ -356,12 +356,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_7.STL" />
+          filename="package://Archivos_URDF/meshes/Link_7.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -370,7 +370,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Solid_URDF/meshes/Link_7.STL" />
+          filename="package://Archivos_URDF/meshes/Link_7.STL" />
       </geometry>
     </collision>
   </link>
@@ -378,8 +378,8 @@
     name="Joint_7"
     type="prismatic">
     <origin
-      xyz="0 0.0025 0.038"
-      rpy="0 0 0" />
+      xyz="0 0.0025 -0.038"
+      rpy="-3.1416 0 3.1416" />
     <parent
       link="Link_5" />
     <child
